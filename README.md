@@ -1,1 +1,1 @@
-Deploys an app for testing alerting 
+Deploys an app for testing alerting.
