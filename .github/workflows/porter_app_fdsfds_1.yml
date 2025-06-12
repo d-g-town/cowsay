@@ -21,7 +21,7 @@ jobs:
                 PORTER_APP_NAME: fdsfds
                 PORTER_CLUSTER: "1"
                 PORTER_DEPLOYMENT_TARGET_ID: 43b4fb49-b921-423d-819d-71da7dfefe37
-                PORTER_HOST: https://6de8-204-48-36-234.ngrok-free.app
+                PORTER_HOST: https://e418-204-48-36-234.ngrok-free.ap
                 PORTER_PR_NUMBER: ${{ github.event.number }}
                 PORTER_PROJECT: "1"
                 PORTER_REPO_NAME: ${{ github.event.repository.name }}
