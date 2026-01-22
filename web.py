@@ -46,7 +46,7 @@ def index(path):
         return redirect("http://www.example.com", code=302)
 
     cow = get_random_cow()
-    message = f"Hello, World! Welcome to /{path} ({status_code})"
+    message = f"Hello, World – Welcome to /{path} ({status_code})"
     html = f"<pre><code>{cowsay(message, cow=cow)}</code></pre>"
     return html, status_code
 
