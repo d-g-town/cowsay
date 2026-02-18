@@ -20,7 +20,7 @@ jobs:
               env:
                 PORTER_APP_NAME: cowsay
                 PORTER_CLUSTER: "1"
-                PORTER_DEPLOYMENT_TARGET_ID: 1d6259b0-2785-4bdd-a844-ba8000c063a8
+                PORTER_DEPLOYMENT_TARGET_ID: aafaa7a7-a914-4d4e-88f6-8cc27bcaf116
                 PORTER_HOST: https://dgtown2.withporter.run
                 PORTER_PROJECT: "1"
                 PORTER_TAG: ${{ steps.vars.outputs.sha_short }}
